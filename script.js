@@ -28,7 +28,7 @@ function mouseLeave () {
 
 function selectNumber() {
 
-    if (this.style.backgroundColor == 'rgb(251, 116, 19)') { // *
+    if (this.style.backgroundColor == 'rgb(251, 116, 19)') {
 
         for (let i = 0; i < numRating.length; i++) {
          numRating[i].style.backgroundColor = 'rgb(43, 53, 64)';
@@ -80,9 +80,4 @@ function submitEvaluation () {
 
 submitButton.onclick = submitEvaluation;
 
-// Onde parei:
-// 1. Submeter no gitHub e no frontend mentor
 
-// * Eu tentei fazer esse código usando o hsl. Mas deu problema no condicional porque o browser, por padrão converte o hsl para o rgb.
-    // Então, quando entrava no condicional comparava o string do rgb com o do hsl e dava erro. Na dúvida, usar o rgb ou fazer o esquema
-    // utilizar classes com as cores (ver resposta no stack overflow)
