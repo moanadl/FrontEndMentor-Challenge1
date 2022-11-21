@@ -34,15 +34,14 @@ body {
     color: hsl(217, 12%, 63%);
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
-    margin: auto;
 }
 
 main {
     background: radial-gradient(circle at top, rgb(41, 50, 61), rgb(27, 33, 39) 80%);
     border-radius: 20px;
-    height: 380px;
+    height: 390px;
     margin: 16vh auto;
-    padding: 30px;
+    /* padding: 30px; */
     width: 400px;
 }
 
@@ -70,6 +69,7 @@ h2 {
 .rating-state {
     display: flex;
     flex-direction: column;
+    padding: 30px;
 }
 
 /* ----- Rating image ----- */
@@ -97,8 +97,9 @@ h2 {
 }
 
 .rating-text h1 {
-    font-size: 27px;
+    font-size: 29px;
     margin-bottom: 10px;
+    font-weight: normal;
 }
 
 .rating-text p {
@@ -139,8 +140,8 @@ button:hover {
     display: flex;
         justify-content: center;
         align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     padding: 6px 5px 5px 5px;
 }
 
@@ -154,13 +155,18 @@ button:hover {
         justify-content: space-evenly;
         text-align: center;
     display: none;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* height: 370px; */
 }
 
 /* ----- Thank you image ----- */
 
 .thank-you-state img {
     margin-bottom: 15px;
-    width: 130px;
+    width: 155px;
 }
 
 /* ----- Evaluation result ----- */
@@ -181,7 +187,8 @@ button:hover {
 /* ----- Thank you text ----- */
 
 .thank-you-state h1 {
-    margin-bottom: 10px;
+    margin-bottom: 13px;
+    font-size: 28px;
 }
 
 .thank-you-state p {
@@ -203,6 +210,11 @@ button:hover {
     
     .rating-text p {
         font-size: 14px;
+    }
+
+    .rating-numbers a {
+        height: 45px;
+        width: 45px;
     }
 
     .thank-you-state h2 {
