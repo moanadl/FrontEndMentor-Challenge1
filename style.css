@@ -36,12 +36,11 @@ body {
     font-size: 15px;
 }
 
-main {
+section {
     background: radial-gradient(circle at top, rgb(41, 50, 61), rgb(27, 33, 39) 80%);
     border-radius: 20px;
     height: 390px;
     margin: 16vh auto;
-    /* padding: 30px; */
     width: 400px;
 }
 
@@ -159,7 +158,6 @@ button:hover {
     padding-bottom: 45px;
     padding-left: 30px;
     padding-right: 30px;
-    /* height: 370px; */
 }
 
 /* ----- Thank you image ----- */
@@ -200,7 +198,7 @@ button:hover {
 
 @media (max-width: 450px) {
 
-    main {
+    section {
         width: 335px;
     }
 
